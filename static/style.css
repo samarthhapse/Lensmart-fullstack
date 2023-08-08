@@ -1,0 +1,156 @@
+*{
+margin :0px;
+padding: 0px;
+box-sizing: border-box;
+}
+#logo{
+    font-family: 'Cedarville Cursive', cursive;
+    display: flex;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    margin: 0 24px;
+    font-size: 38px;
+    margin-right: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+#logo img{
+    height: 42px;
+    width: 140px;
+    filter: invert(0);
+    margin-right: 10px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: #94f474;
+    /* background-color: #39dee7; */
+    font-family: 'Inconsolata', monospace;
+    padding: 130px, 14px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#navbar li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#navbar li a{ 
+   text-decoration: none;
+   font-size: 1.6rem;
+    padding: 40px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+#navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 65px;
+    align-items: center;
+    background: center / cover no-repeat url('/pintya/img/bg.png');
+    background-color: red;
+    height: 340px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 360px;
+    background-color: bisque;
+    width: 100%;
+    margin: auto;   
+}
+#missionSection h1{
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding-top: 12px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+}
+.names h2{
+    margin :0px 180px;
+    font-size: 25px;
+}
+#sponsersSection{
+    height: 350px;
+    background-color: #000000c7;
+}
+#sponsersSection h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+#c1{
+    background: center / cover no-repeat url('/pintya/img/c1.png');
+}
+#c2{
+background: center / cover no-repeat url('/pintya/img/c2.png');
+}
+#c3{
+    background: center / cover no-repeat url('/pintya/img/c3.png');
+}
+.card h3{
+    text-align: center;
+    margin: 0px 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sponsers {    
+        display: flex;
+        flex-direction: row;
+}
+#sponsers img{
+    margin:0px 85px ;
+    height: 250px;
+    display: flex;
+}
+.naam{
+    display: flex;
+    flex-direction: row;
+}
+.naam h2{
+    color: white;
+    margin :0px 143px;
+    font-size: 25px;
+}
+#footer{
+    display: flex;
+    font-size: larger;
+    background-color: rgb(7, 255, 247);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}

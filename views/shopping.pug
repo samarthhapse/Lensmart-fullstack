@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts 
+    include ../static/index.js
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleShop.css
+block content 
+    div.container 
+        section.Section    
+            img(src="/pintya/img/f1.png",class="image", alt="") 
+            h1 Gents section
+        section.Section
+            img(src="/pintya/img/f2.png", class="image" id="image2" ,alt="") 
+            h1 Kids section
+        section.Section
+            img(src="/pintya/img/f3.png", class="image", alt="") 
+            h1 Ladies Section

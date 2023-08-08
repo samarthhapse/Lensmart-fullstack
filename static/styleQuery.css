@@ -1,0 +1,31 @@
+h1{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+textarea{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    background-color: antiquewhite;
+    display: block;
+    margin: 19px auto;
+    width: 40%;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 7px;
+}
+.btn{
+    margin: 10px auto;
+    display: block;
+    padding: 8px 15px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}

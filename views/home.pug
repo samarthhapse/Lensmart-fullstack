@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts 
+    include ../static/index.js
+block style 
+    style
+      include ../static/style.css
+block content  
+    section#introSection
+        //- div Welcome to Lensmart
+        //- div.small Vision is Mission
+    section#missionSection
+        h1 Our franchises
+        div.card#c1
+        div.card#c2
+        div.card#c3
+        div.names 
+            h2 Pune 
+            h2 Delhi
+            h2 Banglore 
+    section#sponsersSection
+        h1 Our Products
+        div#sponsers
+          img(src="/pintya/img/p1.png", alt="") 
+          img(src="/pintya/img/p2.png", alt="") 
+          img(src="/pintya/img/p3.png", alt="") 
+        div.naam 
+            h2 Spectacles 
+            h2 Contact - Lenses
+            h2 Sunglasses

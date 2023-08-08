@@ -1,0 +1,13 @@
+extends base.pug
+
+block scripts 
+    include ../static/index.js
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleQuery.css
+block content  
+    h1 Please write your feedback below
+    form(action='/feedback' method='post')
+        textarea(name='query' cols='30' rows='10' placeholder='Write your feedback')
+        button.btn Submit
