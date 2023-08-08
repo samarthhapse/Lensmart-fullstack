@@ -1,0 +1,45 @@
+//- index.pug
+//- here indents(spaces) are essential
+doctype html
+html
+  head
+    title Lensmart.com
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      div#logo 
+        img(src="/pintya/logo2.png", alt="")  
+        | Lensmart   
+      ul
+        li #[a(href="/") Home]
+        li #[a(href="/about") About] 
+        li #[a(href="/services") Services] 
+        li #[a(href="/contact") Contact] 
+        li #[a(href="/email") E-mail ]
+    section#introSection
+        //- div Welcome to Lensmart
+        //- div.small Vision is Mission
+    section#missionSection
+        h1 Our franchises
+        div.card#c1
+        div.card#c2
+        div.card#c3
+        div.names 
+            h2 Pune 
+            h2 Delhi
+            h2 Banglore 
+    section#sponsersSection
+        h1 Our Products
+        div#sponsers
+          img(src="/pintya/p1.png", alt="") 
+          img(src="/pintya/p2.png", alt="") 
+          img(src="/pintya/p3.png", alt="") 
+        div.naam 
+            h2 Spectacles 
+            h2 Contact - Lenses
+            h2 Sunglasses 
+    footer#footer
+        | Copyright © 2023 SamarthHapse.com | All Rights Reserved
+    script
+      include ../static/index.js
